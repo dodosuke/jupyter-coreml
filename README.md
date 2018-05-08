@@ -1,4 +1,4 @@
-# Jupyter Notebook with CoreML on Docker
+# Jupyter Notebook with CoreML on Docker
 
 Swift の CoreML 向けの独自モデルを実装するため、Docker上で Jupyter Notebook を使える様にした物です。
 Anaconda を Docker で動かすメリットを感じなかったため（ビルドも遅い）、python 3.6.3-slim に必要なパッケージを追加する形で作ってあります。
@@ -10,9 +10,9 @@ This is a dockerfile/docker-compose yaml for using Jupyter Notebook on Docker.
 * Docker for Mac or Windows
 
 ## How to Use
-1. 必要なパッケージを requirements.txt に追加する。
+1. 必要なパッケージを requirements.txt に追加する。
 
-2. ./notebooks フォルダを作成し、中に *.ipynb ファイルなどを入る。
+2. ./notebooks フォルダを作成し、中に *.ipynb ファイルなどを入る。
 
 3. docker-compose でコンテナをビルドする。
 ```
