@@ -2,7 +2,7 @@ version: '3'
 services:
   jupyter:
     build: .
-    container_name: coreml-jupyter
+    container_name: ml-env
     restart: on-failure:5
     ports:
       - "8888:8888"
